@@ -1,0 +1,235 @@
+/* App & window style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.app {
+  width: 100%;
+  max-width: 20rem;
+  height: 100%;
+  max-height: 26.25rem;
+  padding: 0.75rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  border: 3px solid #47aa5a;
+  border-radius: 12px;
+  background: #e8f5e4;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Pixelify Sans", sans-serif;
+  -webkit-app-region: no-drag;
+}
+
+/* Title bar */
+
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#plants-name {
+  font-size: 1.375rem;
+  font-weight: normal;
+  color: #47aa5a;
+}
+
+.title-bar-btns {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.title-bar-btn {
+  width: 1.375rem;
+  height: 1.375rem;
+  border: none;
+  background: none;
+}
+
+#minimize-btn,
+#close-btn {
+	width: 100%;
+  max-width: 1.375rem;
+}
+
+/* Plant zone */
+
+.plant-zone {
+  width: 100%;
+  max-width: 18rem;
+  height: 100%;
+  max-height: 10.688rem;
+  padding: 0.75rem 5.063rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 7.188rem 1.5rem;
+  justify-items: center;
+  align-items: center;
+  gap: 8px;
+  border: 3px solid #47aa5a;
+  border-radius: 8px;
+  background: #c2e0b8;
+}
+
+#plant {
+  width: 100%;
+  max-width: 3rem;
+  image-rendering: pixelated;
+}
+
+.mood-tag {
+  width: 100%;
+  max-width: 7.25rem;
+  height: 100%;
+  max-height: 1.5rem;
+  padding: 0.125rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 3px solid #47aa5a;
+  border-radius: 18px;
+  background: #e8f5e4;
+}
+
+#mood {
+  font-size: 0.875rem;
+  color: #47aa5a;
+}
+
+/* Care reminder */
+
+.care-reminder {
+  width: 100%;
+  max-width: 18rem;
+  height: 100%;
+  max-height: 2.375rem;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 3px solid #47aa5a;
+  border-radius: 8px;
+  background: #c2e0b8;
+}
+
+#message {
+  font-size: 1rem;
+  color: #47aa5a;
+}
+
+/* Water meter bar */
+
+.water-meter {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.water-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+#water,
+#percentage {
+  font-size: 1.125rem;
+  color: #47aa5a;
+}
+
+.water-bar {
+  width: 100%;
+  max-width: 18rem;
+  height: 100%;
+  max-height: 1.875rem;
+  padding: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border: 3px solid #47aa5a;
+  border-radius: 12px;
+  background: #c2e0b8;
+}
+
+.percentage-bar {
+  width: 100%;
+  max-width: 1.5rem;
+  height: 100%;
+  max-height: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8fc98a;
+  color: #8fc98a;
+}
+
+#bar-1 {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+#bar-10 {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+/* Action buttons */
+
+.action-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-btn {
+  width: 100%;
+  max-width: 10.938rem;
+  height: 100%;
+  max-height: 3.625rem;
+  padding: 0.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border: 3px solid;
+  border-radius: 4px;
+}
+
+#water-btn {
+  border-color: #3c84bd;
+  background: #b8d8f0;
+  color: #3c84bd;
+}
+
+#restart-btn {
+  border-color: #d99919;
+  background: #ffdc9f;
+  color: #d99919;
+}
+
+.name {
+  font-size: 1.125rem;
+}
+
+.timer {
+  font-size: 0.75rem;
+}
