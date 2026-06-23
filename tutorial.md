@@ -849,7 +849,7 @@ https://github.com/user-attachments/assets/c9fb2f30-22ed-49f9-bfdb-7d18d93fcb4a
 ### Conclusion
 Congratulation! 🎉 You just built a fully functional Plant Buddy App with Electron!
 
-Along the way you learned how to set up an Electron project from scratch, build a custom window, style a desktop app with CSS, and bring it to life with JavaScript through a simple but satisfying game loop. You also got hands on experience with Electron's IPC system to connect your interface with the main process and a solid foundation for building any other desktop app you can think of next!
+Along the way you learned how to set up an Electron project from scratch, build a custom window, render and style a desktop app with HTML & CSS, and bring it to life with JavaScript through a simple but satisfying game loop. You also got hands on experience with Electron's IPC system to connect your interface with the main process and a solid foundation for building any other desktop app you can think of next!
 
 This is just the starting point though. If you'd like to take this further, you could package your Plant Buddy into a real installable app using a tool like [Electron Forge](https://www.electronforge.io/), so it runs as a standalone program instead of through `npm start`.
 
